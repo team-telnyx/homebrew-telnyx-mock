@@ -2,16 +2,16 @@
 class TelnyxMock < Formula
   desc "telnyx-mock is a mock HTTP server that responds like the real Telnyx API. It can be used instead of Telnyx's testmode to make test suites integrating with Telnyx faster and less brittle."
   homepage "https://github.com/team-telnyx/telnyx-mock"
-  version "0.8.9"
+  version "0.8.10"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/team-telnyx/telnyx-mock/releases/download/v0.8.9/telnyx-mock_0.8.9_darwin_amd64.tar.gz"
-    sha256 "a2f73add3626383ce490c3b189c75eb01f326d1d964da461a270ca9de73d636b"
+    url "https://github.com/team-telnyx/telnyx-mock/releases/download/v0.8.10/telnyx-mock_0.8.10_darwin_amd64.tar.gz"
+    sha256 "af3eea3a285a646d2f2cda61bbeb9f07f9242851e410fc84b7bdedf183d06737"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/team-telnyx/telnyx-mock/releases/download/v0.8.9/telnyx-mock_0.8.9_linux_amd64.tar.gz"
-      sha256 "c8d5f171d6f9ea3421a5b150b422b956352dda08e15dd933d62e23f910309f16"
+      url "https://github.com/team-telnyx/telnyx-mock/releases/download/v0.8.10/telnyx-mock_0.8.10_linux_amd64.tar.gz"
+      sha256 "b858d8fe1c8c4fd1cc51bbe9da8405f44a59385f9eede32c80fe34081d20b369"
     end
   end
 
